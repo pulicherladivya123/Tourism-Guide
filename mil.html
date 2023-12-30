@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+   <style>
+    *{
+    margin: 0;
+    padding: 0;
+}
+
+.slider{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+figure{
+    position: relative;
+    left: 0;
+    width: 400%; /* width dikali slide */
+    animation: 10s slide infinite;
+}
+
+.slide{
+    position: relative;
+    width: 25%; /* width dibagi slide */
+    float: left;
+}
+
+.slide h1{
+    position: absolute;
+    font-size: 3em;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.slide img{
+    width: 100%;
+    height: 500px;
+}
+
+@keyframes slide{
+    0%{
+        left:0;
+    }
+    10%{
+        left:0;
+    }
+    20%{
+        left:-100%;
+    }
+    30%{
+        left:-100%;
+    }
+    40%{
+        left:-200%;
+    }
+    50%{
+        left:-200%;
+    }
+    55%{
+        left:-300%;
+    }
+    65%{
+        left:-300%;
+    }
+    66%{
+        left:-200%;
+    }
+    74%{
+        left:-200%;
+    }
+    75%{
+        left:-100%;
+    }
+    85%{
+        left:-100%;
+    }
+    90%{
+        left:0;
+    }
+    1000%{
+        left:0;
+    }
+}
+h3{
+    text-align: center;
+}
+th {
+            width: 100vw;
+            color:rgb(67, 105, 177);
+        }
+        a{
+            text-decoration: none;
+        } 
+
+        #nav img{
+            width: 130px;
+            height:100px;
+        }
+      
+        #nav{
+        border: 2px;
+        color:white;
+        background-color:white;
+        width: 100%; 
+        height: 10px;
+        border:1px solid black;
+        
+        }
+        button{
+        background-color: skyblue;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        padding:5px;
+      }
+      h1{
+        text-align: center;
+        color:brown
+     }
+     h3{
+       text-align: center; 
+     }
+</style>
+</head>
+<body>
+    <br>
+<div>
+    
+    <table id="nav">
+        <tr>
+            
+            <th><a href="index.html"><img src="home.png" alt="logo"></th></a>
+            <th><a href="home.html"><i class="fa fa-fw fa-home"></i>HOME</a></th>
+            <th><a href="about.html"><i class="fa fa-fw fa-user"></i>ABOUT</a></th>
+            <th><a href="destination.html"><i class="fa fa-fw fa-search"></i> DESTINATION</th></a>
+            <th><a href="contact.html"><i class="fa fa-fw fa-phone"></i>CONTACT US</th></a>
+            <th><a href="booking.html"><button>BOOK NOW</button></th></a>
+            
+        </tr>
+    </table> 
+   
+    </div><br>
+    <h3><button ><a href="america.html">Back</button></a></h3>
+    <br><br>
+    <div class="slider">
+        <figure>
+            <div class="slide">
+                <h1>Miami</h1>
+                <img src="mia1.jpeg" alt="Miami">
+            </div>
+            <div class="slide">
+            <h1>Miami</h1>
+                <img src="mia2.jpeg" alt="Miami">
+            </div>
+            <div class="slide">
+            <h1>Miami</h1>
+                <img src="mia3.avif" alt="Miami">
+            </div>
+            <div class="slide">
+            <h1>Miami</h1>
+                <img src="mia4.jpg" alt="Miami">
+            </div>
+        </figure>
+    </div><br>
+<h2>Miami, city, seat (1844) of Miami-Dade county, southeastern Florida, U.S. A major transportation and business hub, Miami is a leading resort and Atlantic Ocean port situated on Biscayne Bay at the mouth of the Miami River. The Everglades area is a short distance to the west. Greater Miami, the state’s largest urban concentration, comprises all of the county, which includes the cities of Miami Beach (across the bay), Coral Gables, Hialeah, North Miami, and many smaller municipalities and unincorporated areas; together, these make up the southern section of Florida’s “Gold Coast.” Area city, 35 square miles (91 square km). Pop. (2010) 399,457; Miami–Miami Beach–Kendall Metro Division, 2,496,435; (2020) 442,241; Miami–Miami Beach–Kendall Metro Division, 2,701,767.
+
+</h2>
+<h1>If u want to travel to anywhere <br>please submit the enquiry form & book your seat</h1>
+<h1><button><a href="travell.html">ENQUIRY FORM</button></h1></a>
+
+<br>
+
+</body>
+</html>

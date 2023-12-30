@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DESTINATION</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <style>
+        body{
+            background-image: url(dest.jpg);
+            background-position: fixed;
+            background-size: cover;
+        }
+         th {
+            width: 100vw;
+            color:rgb(67, 105, 177);
+        }
+        a{
+            text-decoration: none;
+        } 
+
+        #nav img{
+            width: 130px;
+            height:100px;
+        }
+      
+        #nav{
+        border: 2px;
+        color:white;
+        background-color:white;
+        width: 100%; 
+        height: 10px;
+        border:1px solid black;
+        
+        }
+        button{
+        background-color: skyblue;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        padding:5px;
+      }
+     #places{
+        background-color: yellow;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        padding:15px;
+     }
+     #pla{
+        color:black;
+     }
+    </style>
+</head>
+<body>
+<div>
+    
+    <table id="nav">
+        <tr>
+            
+            <th><a href="index.html"><img src="home.png" alt="logo"></th></a>
+            <th><a href="home.html"><i class="fa fa-fw fa-home"></i>HOME</a></th>
+            <th><a href="about.html"><i class="fa fa-fw fa-user"></i>ABOUT</a></th>
+            <th><a href="destination.html"><i class="fa fa-fw fa-search"></i> DESTINATION</th></a>
+            <th><a href="contact.html"><i class="fa fa-fw fa-phone"></i>CONTACT US</th></a>
+            <th><button><a href="book.html">BOOK NOW</button></th></a>
+            
+        </tr>
+    </table> 
+   
+</div>
+<br>
+<div>
+    <table>
+        <tr>
+            <th><h1 id="pla">Choose Your Destination Country..</h1></th>
+<tr>
+    <th><select id="places" onchange="window.location.href=this.value;">
+<option value="">Select Country</option>
+<option value="india.html">India</option>
+<option value="switzerland.html">Switzerland</option>
+<option value="norway.html">Norway</option>
+<option value="france.html">France</option>
+<option value="germany.html">Germany</option>
+<option value="italy.html">Italy</option>
+
+<option value="america.html">America</option>
+<option value="japan.html">Japan</option>
+<option value="dubai.html">Dubai</option>
+>
+<option value="singapore.html">Singapore</option>
+</select>
+</th>
+</tr>
+
+        </tr>
+    </body>
+</html>

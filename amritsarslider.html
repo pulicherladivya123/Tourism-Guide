@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+   <style>
+    *{
+    margin: 0;
+    padding: 0;
+}
+
+.slider{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+figure{
+    position: relative;
+    left: 0;
+    width: 400%; /* width dikali slide */
+    animation: 10s slide infinite;
+}
+
+.slide{
+    position: relative;
+    width: 25%; /* width dibagi slide */
+    float: left;
+}
+
+.slide h1{
+    position: absolute;
+    font-size: 3em;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.slide img{
+    width: 100%;
+    height: 500px;
+}
+
+@keyframes slide{
+    0%{
+        left:0;
+    }
+    10%{
+        left:0;
+    }
+    20%{
+        left:-100%;
+    }
+    30%{
+        left:-100%;
+    }
+    40%{
+        left:-200%;
+    }
+    50%{
+        left:-200%;
+    }
+    55%{
+        left:-300%;
+    }
+    65%{
+        left:-300%;
+    }
+    66%{
+        left:-200%;
+    }
+    74%{
+        left:-200%;
+    }
+    75%{
+        left:-100%;
+    }
+    85%{
+        left:-100%;
+    }
+    90%{
+        left:0;
+    }
+    1000%{
+        left:0;
+    }
+}
+h3{
+    text-align: center;
+}
+th {
+            width: 100vw;
+            color:rgb(67, 105, 177);
+        }
+        a{
+            text-decoration: none;
+        } 
+
+        #nav img{
+            width: 130px;
+            height:100px;
+        }
+      
+        #nav{
+        border: 2px;
+        color:white;
+        background-color:white;
+        width: 100%; 
+        height: 10px;
+        border:1px solid black;
+        
+        }
+        button{
+        background-color: skyblue;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        padding:5px;
+      }
+      h1{
+        text-align: center;
+        color:brown
+     }
+     h3{
+       text-align: center; 
+     }
+</style>
+</head>
+<body>
+    <br>
+<div>
+    
+    <table id="nav">
+        <tr>
+            
+            <th><a href="index.html"><img src="home.png" alt="logo"></th></a>
+            <th><a href="home.html"><i class="fa fa-fw fa-home"></i>HOME</a></th>
+            <th><a href="about.html"><i class="fa fa-fw fa-user"></i>ABOUT</a></th>
+            <th><a href="destination.html"><i class="fa fa-fw fa-search"></i> DESTINATION</th></a>
+            <th><a href="contact.html"><i class="fa fa-fw fa-phone"></i>CONTACT US</th></a>
+            <th><a href="booking.html"><button>BOOK NOW</button></th></a>
+            
+        </tr>
+    </table> 
+   
+    </div><br>
+    <h3><button ><a href="india.html">Back</button></a></h3>
+    <br><br>
+    <div class="slider">
+        <figure>
+            <div class="slide">
+                <h1>Amritsar</h1>
+                <img src="amr1.jpg" alt="Amritsar">
+            </div>
+            <div class="slide">
+            <h1>Amritsar</h1>
+                <img src="amr2.jpg" alt="Amritsar">
+            </div>
+            <div class="slide">
+            <h1>Amritsar</h1>
+                <img src="amr3.jpg" alt="Amritsar">
+            </div>
+            <div class="slide">
+            <h1>Amritsar</h1>
+                <img src="amr4.jpg" alt="Amritsar">
+            </div>
+        </figure>
+    </div><br>
+<h2>Amritsar was founded by Sri Guru Ramdass ji, the fourth guru of the Sikhs in about 1574 A.D. Before the city was founded, the area was covered with thick forests and had several lakes. To start the city the Guru invited 52 traders from different sectors belongings to nearby places like Patti and Kasur to settle here. These families started the first 32 shops in the city which still stand in the street called Batisi Hatta (32 shops). The Guru himself shifted to live among them in the city which came to be called Ramdaspur and has been eulogised in the Guru Granth Sahib.
+
+The construction of Amrit Sarovar from which the city gets its present name was also stared by Sri Guru Ramdass. His successor, Sri Guru Arjan Dev, completed the project and located the Harmandir Sahib in its midst. Later, when Guru Arjan Dev completed the writing of Holy Granth sahib, a copy of Guru Granth Sahib was ceremonially installed in Harmandir Sahib. Baba Buddha Sahib was appointed the First Granthi.
+
+After the last Guru Sri Guru Gobind Singh Baba Banda Bahadur a Sikh from Nanded came to the Punjab and inflicted several crushing defeats on the imperial Mughal forces. This led to the rise of Sikh power and the rise of several “jathas or bands” called Misls. 12 Misls of the Sikh confederacy controlled Punjab and from time to time attempted to expand their territory and resources. 4 of these Misl, namely; the Ahulwalia Misl, Ramgarhia Misl, Kanhiya Misl and Bhangi Misl controlled Amritsar from time to time. Each of them contributed to the city of Amritsar.</h2>
+<h1>If u want to travel to anywhere <br>please submit the enquiry form & book your seat</h1>
+<h1><button><a href="travell.html">ENQUIRY FORM</button></h1></a>
+
+
+<br>
+
+</body>
+</html>

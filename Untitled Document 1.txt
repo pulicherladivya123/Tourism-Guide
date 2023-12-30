@@ -1,0 +1,8 @@
+index.html --> First register & login 
+home.html --> when we login with username & password redirect to home page
+destination.html --> select ur tourism package by exploring destination page
+enquiry.html --> After explored fill the form and book ur seat then we will contact & provide a guide for u 
+book.html --> Book ur seat here
+contact us --> if u have any queries contact through this page
+
+

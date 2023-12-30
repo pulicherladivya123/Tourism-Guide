@@ -1,0 +1,62 @@
+<!DOCType html>
+<html>
+<head>
+<title>PHP INSERT DATA</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<style>
+  body{
+        background-image:url("back.jpg");
+        background-position: fixed;
+        background-size: cover;
+    }
+ form{
+        text-align: center;
+    }
+ h1{
+        color:blue;
+    }
+    h4{
+        text-align: center;
+    }
+     h1{
+        text-align: center;
+        color:brown
+     }
+     h3{
+       text-align: center; 
+     }
+    button{
+        background-color: skyblue;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        padding:5px;
+      
+    }
+</style>
+</head>
+<body>
+<form action="eform.php"method="POST">
+<h1>ENQUIRY FORM FOR TRAVELLING..🤩️🤩️</h1>
+<label>NAME:</label>
+<input type="text" name="name" placeholder="Enter Your Name" ><br><br>
+<label>NO OF PERSONS:</label>
+<input type="number" name="noofpersons"  placeholder="Persons"><br><br>
+<label>EMAIL:</label>
+<input type="email" name="email"  placeholder="Enter Your Email"><br><br>
+<label>MOBILE:</label>
+<input type="number" name="mobile"  placeholder="Enter Your Mobile No."><br><br>
+<label>CITY:</label>
+<input type="text" name="city"  placeholder="City Name You want to go"><br><br>
+<label>DATE OF TRAVELLING:</label>
+<input type="date" name="dateoftravelling"  placeholder="Enter Your Name"><br><br>
+<label>AMOUNT:</label>
+<input type="numeric" name="amount" placeholder="5000 per person"><br><br>
+<input type="submit" name="insert" value="Add Data to Database">
+</form>
+<h4><button><a href="destination.html">BACK</button></a></h4>
+</body>
+</html>
+
